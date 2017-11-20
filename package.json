@@ -1,0 +1,52 @@
+{
+    "name": "love2spascaffolding",
+    "version": "0.0.3",
+    "description": "foo bar",
+    "main": "index.js",
+    "bin": {
+        "build": "./site/bin/build"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "http-server site/www/localhost/ -p 57661 -c-1 -i -s"
+    },
+    "author": "Chris Love",
+    "license": "restricted",
+    "private": true,
+    "devDependencies": {
+        "cssmin": "*",
+        "fs.js": "*",
+        "glob": "*",
+        "rev-hash": "*",
+        "modify-filename": "*",
+        "graceful-fs": "*",
+        "grunt": "*",
+        "grunt-autoprefixer": "*",
+        "grunt-banner": "*",
+        "grunt-bump": "*",
+        "grunt-contrib-clean": "*",
+        "grunt-contrib-compress": "*",
+        "grunt-contrib-connect": "*",
+        "grunt-contrib-copy": "*",
+        "grunt-contrib-csslint": "*",
+        "grunt-contrib-cssmin": "*",
+        "grunt-contrib-htmlmin": "*",
+        "grunt-contrib-less": "*",
+        "grunt-contrib-nodeunit": "*",
+        "grunt-contrib-uglify": "*",
+        "grunt-contrib-watch": "*",
+        "grunt-contrib-yuidoc": "*",
+        "grunt-jscs": "*",
+        "grunt-run-grunt": "*",
+        "http-server": "*",
+        "copyfiles": "*",
+        "matchdep": "*",
+        "mustache": "*",
+        "ncp": "*",
+        "strip-bom": "*",
+        "workbox-cli": "*",
+        "workbox-sw": "^2.1.1",
+        "lighthouse": "*",
+        "sonarwhal": "*"
+    }
+}

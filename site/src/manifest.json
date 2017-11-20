@@ -1,0 +1,44 @@
+{
+  "name": "Fast Furniture",
+  "short_name": "Fast Furniture",
+  "icons": [
+    {
+      "src": "meta/fast-furniture-64x64.png",
+      "sizes": "64x64",
+      "type": "images/png"
+    },{
+      "src": "meta/fast-furniture-120x120.png",
+      "sizes": "120x120",
+      "type": "images/png"
+    },
+    {
+      "src": "meta/fast-furniture-144x144.png",
+      "sizes": "144x144",
+      "type": "images/png"
+    },
+    {
+      "src": "meta/fast-furniture-152x152.png",
+      "sizes": "152x152",
+      "type": "images/png"
+    },
+    {
+      "src": "meta/fast-furniture-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "images/png"
+    },
+    {
+      "src": "meta/fast-furniture-310x310.png",
+      "sizes": "310x310",
+      "type": "images/png"
+    },
+    {
+      "src": "meta/fast-furniture-icon-340x340.png",
+      "sizes": "340x340",
+      "type": "images/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F99D36",
+  "theme_color": "#55B4F6"
+}

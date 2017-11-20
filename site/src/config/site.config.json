@@ -1,0 +1,41 @@
+{
+        "Name": "Fast Furniture",
+        "LongName": "Fast Furniture",
+        "lowerAppName": "FastFurniture",
+        "title": "Fast Furniture - Your Progressive Web App Demonstration Site",
+        "description": "Want To Sell Your House Fast in Bucks or Montgomery Counties? Fast Furniture Pays All Cash, Is Local & Fair. Close When You're Ready. Call Today! 215-962-5803",
+        "version": "0.1.0.0",
+        "license": "private",
+        "CDN": "https://fastfurniture.love2dev.com/",
+        "facebook-publisher": "https://www.facebook.com/Love2Dev/",
+        "twitter": "ChrisLove",
+        "google-plus": "https://plus.google.com/b/110904107389779237581/?pageId=110904107389779237581",
+        "linkedin": "https://www.linkedin.com/in/Love2Dev",
+        "pinterest": "https://www.pinterest.com/Love2Dev/",
+        "youtube": "https://www.youtube.com/channel/{TBD}",
+        "apikey": "Love2Dev",
+        "author": "Chris Love",
+        "company": "Love2Dev",
+        "location": "USA",
+        "image":{
+            "url": "img/fast-furniture-logo.gif",
+            "width": 1101,
+            "height": 344 
+        },
+        "environment": {
+            "production": "https://Love2Dev.com/",
+            "development": "http://dev.Love2Dev.com.s3-website-us-east-1.amazonaws.com/",
+            "localhost": "http://localhost:16999"
+        },
+        "app-namespace": "Love2Dev",
+        "bing-user-key": "{TBD}",
+        "chrome": "chrome.html",
+        "colors": {
+            "brand-color1": "#F7931E",
+            "brand-color2": "#3FA9F5",
+            "brand-color3": "#fff",
+            "brand-color4": "#000",
+            "brand-color5": "#aaa",
+            "brand-color6": "#33ee33"
+        }
+    }

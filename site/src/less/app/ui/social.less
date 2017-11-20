@@ -1,0 +1,96 @@
+// Core variables and mixins
+@import "../variables/variables.less";
+
+/* Header Social Icons */
+
+.social-wrapper {
+    line-height: @nav-sm-font-height;
+    height: @nav-sm-font-height;
+    display: none;
+    margin: 0 1%;
+    min-width: 80px;
+}
+
+.social-wrapper, .article-footer {
+    a[href*="twitter.com"] {
+        background: #55acee;
+    }
+    a[href*="facebook.com"] {
+        background: #3b5998;
+    }
+    a[href*="google.com"] {
+        background: #db4437;
+    }
+    a[href*="pinterest.com"] {
+        background: #c30000;
+    }
+    a[href*="reddit.com"] {
+        background: orange;
+    }
+    a[href*="linkedin.com"] {
+        background: blue;
+    }
+    a[href*="rss"] {
+        background: #f60;
+    }
+
+    a:hover{
+        color: @brand-white;
+    }
+}
+
+.social-icon {
+    font-size: @nav-sm-font-height;
+    line-height: @nav-sm-font-height;
+    height: @nav-sm-font-height;
+    width: @nav-sm-font-height;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 .25%;
+    color: @brand-white;
+}
+
+
+/* Social Share Buttons & Bottom of Articles */
+
+.btn-social {
+    text-align: center;
+    color: @brand-white;
+    font-size: @nav-sm-font-height;
+    padding: 1%;
+    margin: 1%;
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+    width: 30%;
+    min-width: 30%;
+    height: 100%;
+}
+
+ul.share-buttons {
+    list-style: none;
+    padding: 0;
+}
+
+ul.share-buttons li {
+    display: inline;
+}
+
+@media(min-width: 720px) {
+    .social-wrapper {
+        display: inline-block;
+    }
+}
+
+@media (min-width: 960px) {
+    .social-wrapper {
+        margin: 6px 6px 0 0;
+        min-width: 110px;
+    }
+    .btn-social {
+        font-size: 2em;
+        width: 12%;
+        min-width: 12%;
+    }
+}
