@@ -38,6 +38,7 @@
         "grunt-contrib-yuidoc": "*",
         "grunt-jscs": "*",
         "grunt-run-grunt": "*",
+        "hint": "*",
         "http-server": "*",
         "copyfiles": "*",
         "matchdep": "*",
@@ -46,7 +47,6 @@
         "strip-bom": "*",
         "workbox-cli": "*",
         "workbox-sw": "^2.1.1",
-        "lighthouse": "*",
-        "sonarwhal": "*"
+        "lighthouse": "*"
     }
 }
